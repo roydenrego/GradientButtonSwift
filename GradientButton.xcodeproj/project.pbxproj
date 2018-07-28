@@ -10,6 +10,7 @@
 		92EBF7FA210CD3F3003F9244 /* GradientButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EBF7F0210CD3F3003F9244 /* GradientButton.framework */; };
 		92EBF7FF210CD3F3003F9244 /* GradientButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EBF7FE210CD3F3003F9244 /* GradientButtonTests.swift */; };
 		92EBF801210CD3F3003F9244 /* GradientButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EBF7F3210CD3F3003F9244 /* GradientButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EBF80D210CD47F003F9244 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EBF80C210CD47F003F9244 /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		92EBF7F9210CD3F3003F9244 /* GradientButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EBF7FE210CD3F3003F9244 /* GradientButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonTests.swift; sourceTree = "<group>"; };
 		92EBF800210CD3F3003F9244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EBF80C210CD47F003F9244 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				92EBF7F3210CD3F3003F9244 /* GradientButton.h */,
 				92EBF7F4210CD3F3003F9244 /* Info.plist */,
+				92EBF80C210CD47F003F9244 /* GradientButton.swift */,
 			);
 			path = GradientButton;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					92EBF7EF210CD3F3003F9244 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					92EBF7F8210CD3F3003F9244 = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EBF80D210CD47F003F9244 /* GradientButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		92EBF805210CD3F3003F9244 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.roydenrego.GradientButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		92EBF806210CD3F3003F9244 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		92EBF808210CD3F3003F9244 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5SE7UP68B;
 				INFOPLIST_FILE = GradientButtonTests/Info.plist;
@@ -407,6 +416,7 @@
 		92EBF809210CD3F3003F9244 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5SE7UP68B;
 				INFOPLIST_FILE = GradientButtonTests/Info.plist;
