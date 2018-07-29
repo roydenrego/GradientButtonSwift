@@ -43,10 +43,17 @@ You can create a Gradient Button by
 
 #### By using Storyboard or XIB
 1. Add button object and set custom class `GradientButton`
+<<<<<<< HEAD
 ![via Storyboard](Images/storyboard.png)
 
 2. You can set the gradient colors and corner radius in the Attributes Inspector
 ![via Attributes Inspector](Images/inspector.png)
+=======
+![via Storyboard](https://raw.githubusercontent.com/storyboard.png)
+
+2. You can set the gradient colors and corner radius in the Attributes Inspector
+![via Attributes Inspector](https://raw.githubusercontent.com/inspector.png)
+>>>>>>> 0a2c0fda7347db95b4adabe7ab2aa5a356028321
 
 #### By using code
 ```swift
