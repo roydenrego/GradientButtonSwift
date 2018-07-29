@@ -2,15 +2,15 @@
 > A iOS Swift library for Gradient Button.
 
 [![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
+<!--[![Build Status][travis-image]][travis-url]-->
 [![License][license-image]][license-url]
-<!--[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  -->
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/GradientButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GradientButtonSwift) 
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](http://cocoapods.org/pods/GradientButtonSwift)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-One to two paragraph statement about your product and what it does.
+GradientButtonSwift is a swift library for applying gradients on UIButton for iOS projects. Gradient can be applied by specifying the top and bottom color for the button and the gradient will be automatically applied. It also supports specifying corner radius if you want a nice gradient button with rounded corners.
 
-
+![](Images/display.png)
 
 ## Requirements
 
@@ -23,7 +23,7 @@ One to two paragraph statement about your product and what it does.
 You can use [CocoaPods](http://cocoapods.org/) to install `GradientButtonSwift` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 pod 'GradientButtonSwift'
 ```
@@ -40,9 +40,27 @@ import GradientButtonSwift
 
 ## Usage example
 
+You can create a Gradient Button by
+
+#### By using Storyboard or XIB
+1. Add button object and set custom class `GradientButton`
+![via Storyboard](https://raw.githubusercontent.com/storyboard.png)
+
+2. You can set the gradient colors and corner radius in the Attributes Inspector
+![via Attributes Inspector](https://raw.githubusercontent.com/inspector.png)
+
+#### By using code
 ```swift
 import GradientButtonSwift
 
+...
+
+let button = GradientButton(frame: CGRect(x: 10, y: 20, width: 150, height: 40))
+button.setTitle("Button", for: .normal)
+button.topGradientColor = UIColor.red
+button.bottomGradientColor = UIColor.orange
+button.cornerRadius = 5
+self.view.addSubview(button)
 ```
 
 ## Contribute
