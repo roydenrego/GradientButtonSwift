@@ -1,15 +1,16 @@
 //
 //  GradientButton.swift
-//  ***REMOVED***
+//  Royden Rego
 //
-//  Created by ***REMOVED*** on 7/26/18.
-//  Copyright © 2018 ***REMOVED***. All rights reserved.
+//  Created by Royden Rego on 7/26/18.
+//  Copyright © 2018. All rights reserved.
 //
 
 import UIKit
 
 @IBDesignable
-class GradientButton: UIButton {
+public class GradientButton: UIButton {
+    
     let gradientLayer = CAGradientLayer()
     
     @IBInspectable

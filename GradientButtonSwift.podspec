@@ -9,7 +9,7 @@ This button allows you to have a gradient on it specified by its top and bottom 
   s.homepage         = 'https://github.com/roydenrego/GradientButtonSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Royden Rego' => 'roydenrego@softrixz.com' }
-  s.source           = { :git => 'https://github.com/roydenrego/GradientButtonSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/roydenrego/GradientButtonSwift.git', :commit => "e643a33fc6d64d716d261d570d6e6978c0662480", :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
