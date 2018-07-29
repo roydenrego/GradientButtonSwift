@@ -2,7 +2,6 @@
 > A iOS Swift library for Gradient Button.
 
 [![Swift Version][swift-image]][swift-url]
-<!--[![Build Status][travis-image]][travis-url]-->
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/GradientButtonSwift.svg?style=flat)](https://cocoapods.org/pods/GradientButtonSwift) 
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](http://cocoapods.org/pods/GradientButtonSwift)
@@ -44,10 +43,10 @@ You can create a Gradient Button by
 
 #### By using Storyboard or XIB
 1. Add button object and set custom class `GradientButton`
-![via Storyboard](https://raw.githubusercontent.com/storyboard.png)
+![via Storyboard](Images/storyboard.png)
 
 2. You can set the gradient colors and corner radius in the Attributes Inspector
-![via Attributes Inspector](https://raw.githubusercontent.com/inspector.png)
+![via Attributes Inspector](Images/inspector.png)
 
 #### By using code
 ```swift

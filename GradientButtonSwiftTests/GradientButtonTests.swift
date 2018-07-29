@@ -2,7 +2,7 @@
 //  GradientButtonTests.swift
 //  GradientButtonTests
 //
-//  Created by ***REMOVED*** on 7/28/18.
+//  Created by user115798 on 7/28/18.
 //  Copyright © 2018 Royden Rego. All rights reserved.
 //
 
