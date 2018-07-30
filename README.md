@@ -9,7 +9,7 @@
 
 GradientButtonSwift is a swift library for applying gradients on UIButton for iOS projects. Gradient can be applied by specifying the top and bottom color for the button and the gradient will be automatically applied. It also supports specifying corner radius if you want a nice gradient button with rounded corners.
 
-![](Images/display.png)
+![](https://raw.githubusercontent.com/roydenrego/GradientButtonSwift/master/Images/display.png)
 
 ## Requirements
 
@@ -44,11 +44,11 @@ You can create a Gradient Button by
 #### By using Storyboard or XIB
 1. Add button object and set custom class `GradientButton`
 
-![via Storyboard](Images/storyboard.PNG)
+![via Storyboard](https://raw.githubusercontent.com/roydenrego/GradientButtonSwift/master/Images/storyboard.PNG)
 
 2. You can set the gradient colors and corner radius in the Attributes Inspector
 
-![via Attributes Inspector](Images/inspector.PNG)
+![via Attributes Inspector](https://raw.githubusercontent.com/roydenrego/GradientButtonSwift/master/Images/inspector.PNG)
 
 #### By using code
 ```swift
