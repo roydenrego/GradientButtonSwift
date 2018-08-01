@@ -46,4 +46,9 @@ public class GradientButton: UIButton {
             self.clipsToBounds = true
         }
     }
+    
+    override public func layoutSublayers(of layer: CALayer) {
+        super.layoutSublayers(of: layer)
+        gradientLayer.frame = bounds
+    }
 }
